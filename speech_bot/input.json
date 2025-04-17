@@ -1,0 +1,5 @@
+{
+  "text": "Hi!   It's nice to hear from you! What can I do for you today? ",
+  "voice": "en_US-kathleen-low.onnx",
+  "output_file": "../static/output.wav"
+}
