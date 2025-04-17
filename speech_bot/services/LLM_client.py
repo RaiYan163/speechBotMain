@@ -1,6 +1,6 @@
 import re
 import requests
-from config import OLLAMA_BASE_URL
+from config import OLLAMA_BASE_URL, OLLAMA_MODEL
 
 def clean_response(text):
     text = text.strip()
@@ -21,7 +21,7 @@ def clean_response(text):
 
    
     match = re.match(
-        r"(?i)^sure,\s*(here('|’)?s|this is)?\s*(an\s)?answer:?\s*",
+        r"(?i)^sure,\s*(here('|')?s|this is)?\s*(an\s)?answer:?\s*",
         text
     )
     if match:
@@ -39,7 +39,7 @@ def call_llm(prompt):
 
     try:
         response = requests.post(f"{OLLAMA_BASE_URL}/api/generate", json={
-            "model": "gemma:2b",
+            "model": OLLAMA_MODEL,
             "prompt": final_prompt,
             "stream": False
         })

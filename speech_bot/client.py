@@ -1,4 +1,8 @@
 import requests
+from config import OLLAMA_MODEL
+
+print(f"Starting conversation with model: {OLLAMA_MODEL}")
+print("Type 'exit' or 'quit' to end the conversation\n")
 
 while True:
     user_input = input("You: ")
@@ -11,7 +15,7 @@ while True:
 
         try:
             data = res.json()
-            print("Gemma:", data.get("reply"))
+            print(f"{OLLAMA_MODEL}:", data.get("reply"))
         except requests.exceptions.JSONDecodeError:
             print("Error: Could not decode JSON. Raw response:")
             print(res.text)
