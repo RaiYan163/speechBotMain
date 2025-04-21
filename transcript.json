@@ -1,0 +1,366 @@
+{
+  "sessions": [
+    {
+      "session_id": 1,
+      "start_time": "2025-04-18 18:48:10",
+      "steps": [
+        {
+          "timestamp": "2025-04-18 18:48:10",
+          "step": "audio_reception",
+          "duration_seconds": "0.001",
+          "start_time": 1745016490.6252997,
+          "end_time": 1745016490.62642
+        },
+        {
+          "timestamp": "2025-04-18 18:48:10",
+          "step": "audio_conversion",
+          "duration_seconds": "0.231",
+          "start_time": 1745016490.627418,
+          "end_time": 1745016490.8582726
+        },
+        {
+          "timestamp": "2025-04-18 18:48:11",
+          "step": "voice_activity_detection",
+          "duration_seconds": "0.254",
+          "start_time": 1745016490.8586473,
+          "end_time": 1745016491.11269
+        },
+        {
+          "timestamp": "2025-04-18 18:48:11",
+          "step": "speech_recognition",
+          "duration_seconds": "0.830",
+          "start_time": 1745016491.1131043,
+          "end_time": 1745016491.9429502,
+          "additional_info": {
+            "text": "What is one plus one?"
+          }
+        },
+        {
+          "timestamp": "2025-04-18 18:48:14",
+          "step": "llm_processing",
+          "duration_seconds": "2.077",
+          "start_time": 1745016491.9433973,
+          "end_time": 1745016494.0199246,
+          "additional_info": {
+            "response": "One plus one equals two. Simple arithmetic fact."
+          }
+        },
+        {
+          "timestamp": "2025-04-18 18:48:15",
+          "step": "text_to_speech",
+          "duration_seconds": "1.539",
+          "start_time": 1745016494.0210195,
+          "end_time": 1745016495.560188
+        },
+        {
+          "timestamp": "2025-04-18 18:48:15",
+          "step": "total_processing",
+          "duration_seconds": "4.936",
+          "start_time": 1745016490.6252842,
+          "end_time": 1745016495.5609114,
+          "additional_info": {
+            "reception_duration": 0.0011203289031982422,
+            "conversion_duration": 0.23085451126098633,
+            "vad_duration": 0.2540426254272461,
+            "recognition_duration": 0.8298459053039551,
+            "llm_duration": 2.0765273571014404,
+            "tts_duration": 1.5391685962677002
+          }
+        }
+      ],
+      "conversation": [
+        {
+          "role": "user",
+          "text": "What is one plus one?",
+          "timestamp": "2025-04-18 18:48:11"
+        },
+        {
+          "role": "assistant",
+          "text": "One plus one equals two. Simple arithmetic fact.",
+          "timestamp": "2025-04-18 18:48:14"
+        }
+      ],
+      "end_time": "2025-04-18 18:48:15",
+      "total_duration": "4.936"
+    },
+    {
+      "session_id": 2,
+      "start_time": "2025-04-18 18:48:25",
+      "steps": [
+        {
+          "timestamp": "2025-04-18 18:48:25",
+          "step": "audio_reception",
+          "duration_seconds": "0.001",
+          "start_time": 1745016505.6103938,
+          "end_time": 1745016505.6110764
+        },
+        {
+          "timestamp": "2025-04-18 18:48:25",
+          "step": "audio_conversion",
+          "duration_seconds": "0.247",
+          "start_time": 1745016505.6124432,
+          "end_time": 1745016505.8590677
+        },
+        {
+          "timestamp": "2025-04-18 18:48:25",
+          "step": "voice_activity_detection",
+          "duration_seconds": "0.127",
+          "start_time": 1745016505.8595626,
+          "end_time": 1745016505.986798
+        },
+        {
+          "timestamp": "2025-04-18 18:48:26",
+          "step": "speech_recognition",
+          "duration_seconds": "0.256",
+          "start_time": 1745016505.9873269,
+          "end_time": 1745016506.243196,
+          "additional_info": {
+            "text": "Can't tell me about you sir?"
+          }
+        },
+        {
+          "timestamp": "2025-04-18 18:48:26",
+          "step": "llm_processing",
+          "duration_seconds": "0.245",
+          "start_time": 1745016506.2437942,
+          "end_time": 1745016506.4883592,
+          "additional_info": {
+            "response": "I'm a large language model, not a person. My purpose is to assist and provide information."
+          }
+        },
+        {
+          "timestamp": "2025-04-18 18:48:28",
+          "step": "text_to_speech",
+          "duration_seconds": "1.632",
+          "start_time": 1745016506.4889803,
+          "end_time": 1745016508.120899
+        },
+        {
+          "timestamp": "2025-04-18 18:48:28",
+          "step": "total_processing",
+          "duration_seconds": "2.511",
+          "start_time": 1745016505.6103785,
+          "end_time": 1745016508.1215374,
+          "additional_info": {
+            "reception_duration": 0.0006825923919677734,
+            "conversion_duration": 0.24662446975708008,
+            "vad_duration": 0.12723541259765625,
+            "recognition_duration": 0.25586915016174316,
+            "llm_duration": 0.24456501007080078,
+            "tts_duration": 1.6319186687469482
+          }
+        }
+      ],
+      "conversation": [
+        {
+          "role": "user",
+          "text": "Can't tell me about you sir?",
+          "timestamp": "2025-04-18 18:48:26"
+        },
+        {
+          "role": "assistant",
+          "text": "I'm a large language model, not a person. My purpose is to assist and provide information.",
+          "timestamp": "2025-04-18 18:48:26"
+        }
+      ],
+      "end_time": "2025-04-18 18:48:28",
+      "total_duration": "2.511"
+    },
+    {
+      "session_id": 3,
+      "start_time": "2025-04-18 18:48:44",
+      "steps": [
+        {
+          "timestamp": "2025-04-18 18:48:44",
+          "step": "audio_reception",
+          "duration_seconds": "0.001",
+          "start_time": 1745016524.1197245,
+          "end_time": 1745016524.1202347
+        },
+        {
+          "timestamp": "2025-04-18 18:48:44",
+          "step": "audio_conversion",
+          "duration_seconds": "0.242",
+          "start_time": 1745016524.1210687,
+          "end_time": 1745016524.3627737
+        },
+        {
+          "timestamp": "2025-04-18 18:48:44",
+          "step": "voice_activity_detection",
+          "duration_seconds": "0.205",
+          "start_time": 1745016524.3634453,
+          "end_time": 1745016524.568376
+        },
+        {
+          "timestamp": "2025-04-18 18:48:45",
+          "step": "speech_recognition",
+          "duration_seconds": "0.611",
+          "start_time": 1745016524.569083,
+          "end_time": 1745016525.1798642,
+          "additional_info": {
+            "text": "What is do the strain?"
+          }
+        },
+        {
+          "timestamp": "2025-04-18 18:48:45",
+          "step": "llm_processing",
+          "duration_seconds": "0.363",
+          "start_time": 1745016525.180603,
+          "end_time": 1745016525.5434413,
+          "additional_info": {
+            "response": "It's a musical band, formerly known as The Strain was an American heavy metal band, and Do the Strain is an album by the band 3TEETH."
+          }
+        },
+        {
+          "timestamp": "2025-04-18 18:48:47",
+          "step": "text_to_speech",
+          "duration_seconds": "1.744",
+          "start_time": 1745016525.544177,
+          "end_time": 1745016527.2879415
+        },
+        {
+          "timestamp": "2025-04-18 18:48:47",
+          "step": "total_processing",
+          "duration_seconds": "3.169",
+          "start_time": 1745016524.119719,
+          "end_time": 1745016527.2891676,
+          "additional_info": {
+            "reception_duration": 0.0005102157592773438,
+            "conversion_duration": 0.24170494079589844,
+            "vad_duration": 0.20493078231811523,
+            "recognition_duration": 0.610781192779541,
+            "llm_duration": 0.3628382682800293,
+            "tts_duration": 1.7437644004821777
+          }
+        }
+      ],
+      "conversation": [
+        {
+          "role": "user",
+          "text": "What is do the strain?",
+          "timestamp": "2025-04-18 18:48:45"
+        },
+        {
+          "role": "assistant",
+          "text": "It's a musical band, formerly known as The Strain was an American heavy metal band, and Do the Strain is an album by the band 3TEETH.",
+          "timestamp": "2025-04-18 18:48:45"
+        }
+      ],
+      "end_time": "2025-04-18 18:48:47",
+      "total_duration": "3.169"
+    },
+    {
+      "session_id": 4,
+      "start_time": "2025-04-18 18:49:06",
+      "steps": [
+        {
+          "timestamp": "2025-04-18 18:49:06",
+          "step": "audio_reception",
+          "duration_seconds": "0.001",
+          "start_time": 1745016546.366483,
+          "end_time": 1745016546.3672602
+        },
+        {
+          "timestamp": "2025-04-18 18:49:06",
+          "step": "audio_conversion",
+          "duration_seconds": "0.248",
+          "start_time": 1745016546.3681958,
+          "end_time": 1745016546.6158645
+        },
+        {
+          "timestamp": "2025-04-18 18:49:06",
+          "step": "voice_activity_detection",
+          "duration_seconds": "0.227",
+          "start_time": 1745016546.6167636,
+          "end_time": 1745016546.8438008
+        },
+        {
+          "timestamp": "2025-04-18 18:49:07",
+          "step": "speech_recognition",
+          "duration_seconds": "0.221",
+          "start_time": 1745016546.844723,
+          "end_time": 1745016547.0655751,
+          "additional_info": {
+            "text": "Thank you."
+          }
+        },
+        {
+          "timestamp": "2025-04-18 18:49:07",
+          "step": "llm_processing",
+          "duration_seconds": "0.186",
+          "start_time": 1745016547.0665207,
+          "end_time": 1745016547.25206,
+          "additional_info": {
+            "response": "You're welcome. Is there anything else I can help you with?"
+          }
+        },
+        {
+          "timestamp": "2025-04-18 18:49:08",
+          "step": "text_to_speech",
+          "duration_seconds": "1.613",
+          "start_time": 1745016547.2529042,
+          "end_time": 1745016548.8660467
+        },
+        {
+          "timestamp": "2025-04-18 18:49:08",
+          "step": "total_processing",
+          "duration_seconds": "2.502",
+          "start_time": 1745016546.3664656,
+          "end_time": 1745016548.8684862,
+          "additional_info": {
+            "reception_duration": 0.0007772445678710938,
+            "conversion_duration": 0.24766874313354492,
+            "vad_duration": 0.2270371913909912,
+            "recognition_duration": 0.22085213661193848,
+            "llm_duration": 0.18553924560546875,
+            "tts_duration": 1.613142490386963
+          }
+        }
+      ],
+      "conversation": [
+        {
+          "role": "user",
+          "text": "Thank you.",
+          "timestamp": "2025-04-18 18:49:07"
+        },
+        {
+          "role": "assistant",
+          "text": "You're welcome. Is there anything else I can help you with?",
+          "timestamp": "2025-04-18 18:49:07"
+        }
+      ],
+      "end_time": "2025-04-18 18:49:08",
+      "total_duration": "2.502"
+    },
+    {
+      "session_id": 5,
+      "start_time": "2025-04-18 18:49:20",
+      "steps": [
+        {
+          "timestamp": "2025-04-18 18:49:20",
+          "step": "audio_reception",
+          "duration_seconds": "0.000",
+          "start_time": 1745016560.9139204,
+          "end_time": 1745016560.9142396
+        },
+        {
+          "timestamp": "2025-04-18 18:49:21",
+          "step": "audio_conversion",
+          "duration_seconds": "0.234",
+          "start_time": 1745016560.9152782,
+          "end_time": 1745016561.1492054
+        },
+        {
+          "timestamp": "2025-04-18 18:49:21",
+          "step": "voice_activity_detection",
+          "duration_seconds": "0.155",
+          "start_time": 1745016561.1502333,
+          "end_time": 1745016561.3049107
+        }
+      ],
+      "conversation": []
+    }
+  ],
+  "start_time": "2025-04-18 18:48:01",
+  "application_version": "1.0"
+}

@@ -1,0 +1,183 @@
+{
+  "sessions": [
+    {
+      "session_id": 1,
+      "start_time": "2025-04-18 18:39:19",
+      "steps": [
+        {
+          "timestamp": "2025-04-18 18:39:19",
+          "step": "audio_reception",
+          "duration_seconds": "0.000",
+          "start_time": 1745015959.8297122,
+          "end_time": 1745015959.830199
+        },
+        {
+          "timestamp": "2025-04-18 18:39:20",
+          "step": "audio_conversion",
+          "duration_seconds": "0.246",
+          "start_time": 1745015959.8306108,
+          "end_time": 1745015960.0770376
+        },
+        {
+          "timestamp": "2025-04-18 18:39:20",
+          "step": "voice_activity_detection",
+          "duration_seconds": "0.266",
+          "start_time": 1745015960.0773368,
+          "end_time": 1745015960.343146
+        },
+        {
+          "timestamp": "2025-04-18 18:39:21",
+          "step": "speech_recognition",
+          "duration_seconds": "0.833",
+          "start_time": 1745015960.3435292,
+          "end_time": 1745015961.1767418,
+          "additional_info": {
+            "text": "What is one plus one?"
+          }
+        },
+        {
+          "timestamp": "2025-04-18 18:39:21",
+          "step": "llm_processing",
+          "duration_seconds": "0.100",
+          "start_time": 1745015961.1771805,
+          "end_time": 1745015961.2768023,
+          "additional_info": {
+            "response": "Answer: 2."
+          }
+        }
+      ],
+      "conversation": [
+        {
+          "role": "user",
+          "text": "What is one plus one?",
+          "timestamp": "2025-04-18 18:39:21"
+        },
+        {
+          "role": "assistant",
+          "text": "Answer: 2.",
+          "timestamp": "2025-04-18 18:39:21"
+        }
+      ]
+    },
+    {
+      "session_id": 2,
+      "start_time": "2025-04-18 18:39:29",
+      "steps": [
+        {
+          "timestamp": "2025-04-18 18:39:29",
+          "step": "audio_reception",
+          "duration_seconds": "0.000",
+          "start_time": 1745015969.0807714,
+          "end_time": 1745015969.081111
+        },
+        {
+          "timestamp": "2025-04-18 18:39:29",
+          "step": "audio_conversion",
+          "duration_seconds": "0.233",
+          "start_time": 1745015969.0816076,
+          "end_time": 1745015969.3144534
+        },
+        {
+          "timestamp": "2025-04-18 18:39:29",
+          "step": "voice_activity_detection",
+          "duration_seconds": "0.165",
+          "start_time": 1745015969.3149233,
+          "end_time": 1745015969.4801173
+        },
+        {
+          "timestamp": "2025-04-18 18:39:29",
+          "step": "speech_recognition",
+          "duration_seconds": "0.242",
+          "start_time": 1745015969.4806485,
+          "end_time": 1745015969.7226257,
+          "additional_info": {
+            "text": "Can you tell me how it is?"
+          }
+        },
+        {
+          "timestamp": "2025-04-18 18:39:29",
+          "step": "llm_processing",
+          "duration_seconds": "0.244",
+          "start_time": 1745015969.723101,
+          "end_time": 1745015969.9672627,
+          "additional_info": {
+            "response": "I'm a large language model, I can provide information and answer questions to the best of my ability."
+          }
+        }
+      ],
+      "conversation": [
+        {
+          "role": "user",
+          "text": "Can you tell me how it is?",
+          "timestamp": "2025-04-18 18:39:29"
+        },
+        {
+          "role": "assistant",
+          "text": "I'm a large language model, I can provide information and answer questions to the best of my ability.",
+          "timestamp": "2025-04-18 18:39:29"
+        }
+      ]
+    },
+    {
+      "session_id": 3,
+      "start_time": "2025-04-18 18:39:41",
+      "steps": [
+        {
+          "timestamp": "2025-04-18 18:39:41",
+          "step": "audio_reception",
+          "duration_seconds": "0.001",
+          "start_time": 1745015981.6690576,
+          "end_time": 1745015981.6696703
+        },
+        {
+          "timestamp": "2025-04-18 18:39:41",
+          "step": "audio_conversion",
+          "duration_seconds": "0.248",
+          "start_time": 1745015981.6702616,
+          "end_time": 1745015981.9185681
+        },
+        {
+          "timestamp": "2025-04-18 18:39:42",
+          "step": "voice_activity_detection",
+          "duration_seconds": "0.247",
+          "start_time": 1745015981.9191206,
+          "end_time": 1745015982.1661184
+        },
+        {
+          "timestamp": "2025-04-18 18:39:43",
+          "step": "speech_recognition",
+          "duration_seconds": "1.820",
+          "start_time": 1745015982.1666932,
+          "end_time": 1745015983.986398,
+          "additional_info": {
+            "text": "coment to look now in the body is a p u u b"
+          }
+        },
+        {
+          "timestamp": "2025-04-18 18:39:44",
+          "step": "llm_processing",
+          "duration_seconds": "0.317",
+          "start_time": 1745015983.987104,
+          "end_time": 1745015984.3045926,
+          "additional_info": {
+            "response": "It's possible, but without visual confirmation, it's difficult to say for certain. Can you provide more context or details about the object?"
+          }
+        }
+      ],
+      "conversation": [
+        {
+          "role": "user",
+          "text": "coment to look now in the body is a p u u b",
+          "timestamp": "2025-04-18 18:39:43"
+        },
+        {
+          "role": "assistant",
+          "text": "It's possible, but without visual confirmation, it's difficult to say for certain. Can you provide more context or details about the object?",
+          "timestamp": "2025-04-18 18:39:44"
+        }
+      ]
+    }
+  ],
+  "start_time": "2025-04-18 18:39:06",
+  "application_version": "1.0"
+}

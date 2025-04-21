@@ -1,0 +1,388 @@
+{
+  "sessions": [
+    {
+      "session_id": 1,
+      "start_time": "2025-04-18 18:32:53",
+      "steps": [
+        {
+          "timestamp": "2025-04-18 18:32:53",
+          "step": "audio_reception",
+          "duration_seconds": "0.001",
+          "start_time": 1745015573.847073,
+          "end_time": 1745015573.8476615
+        },
+        {
+          "timestamp": "2025-04-18 18:32:54",
+          "step": "audio_conversion",
+          "duration_seconds": "0.235",
+          "start_time": 1745015573.8481312,
+          "end_time": 1745015574.0835245
+        },
+        {
+          "timestamp": "2025-04-18 18:32:54",
+          "step": "voice_activity_detection",
+          "duration_seconds": "0.250",
+          "start_time": 1745015574.0838697,
+          "end_time": 1745015574.3340452
+        },
+        {
+          "timestamp": "2025-04-18 18:32:55",
+          "step": "speech_recognition",
+          "duration_seconds": "0.828",
+          "start_time": 1745015574.334449,
+          "end_time": 1745015575.162007,
+          "additional_info": {
+            "text": "What is one plus one?"
+          }
+        },
+        {
+          "timestamp": "2025-04-18 18:32:55",
+          "step": "llm_processing",
+          "duration_seconds": "0.148",
+          "start_time": 1745015575.1624453,
+          "end_time": 1745015575.310103,
+          "additional_info": {
+            "response": "One plus one equals two. Simple arithmetic."
+          }
+        }
+      ],
+      "conversation": [
+        {
+          "role": "user",
+          "text": "What is one plus one?",
+          "timestamp": "2025-04-18 18:32:55"
+        },
+        {
+          "role": "assistant",
+          "text": "One plus one equals two. Simple arithmetic.",
+          "timestamp": "2025-04-18 18:32:55"
+        }
+      ]
+    },
+    {
+      "session_id": 2,
+      "start_time": "2025-04-18 18:32:56",
+      "steps": [
+        {
+          "timestamp": "2025-04-18 18:32:56",
+          "step": "audio_reception",
+          "duration_seconds": "0.000",
+          "start_time": 1745015576.8691406,
+          "end_time": 1745015576.8695717
+        },
+        {
+          "timestamp": "2025-04-18 18:32:57",
+          "step": "audio_conversion",
+          "duration_seconds": "0.221",
+          "start_time": 1745015576.8700728,
+          "end_time": 1745015577.0906982
+        },
+        {
+          "timestamp": "2025-04-18 18:32:57",
+          "step": "voice_activity_detection",
+          "duration_seconds": "0.038",
+          "start_time": 1745015577.0915108,
+          "end_time": 1745015577.1293635
+        }
+      ],
+      "conversation": []
+    },
+    {
+      "session_id": 3,
+      "start_time": "2025-04-18 18:33:03",
+      "steps": [
+        {
+          "timestamp": "2025-04-18 18:33:03",
+          "step": "audio_reception",
+          "duration_seconds": "0.001",
+          "start_time": 1745015583.481344,
+          "end_time": 1745015583.481927
+        },
+        {
+          "timestamp": "2025-04-18 18:33:03",
+          "step": "audio_conversion",
+          "duration_seconds": "0.234",
+          "start_time": 1745015583.4832647,
+          "end_time": 1745015583.7170608
+        },
+        {
+          "timestamp": "2025-04-18 18:33:03",
+          "step": "voice_activity_detection",
+          "duration_seconds": "0.134",
+          "start_time": 1745015583.7178235,
+          "end_time": 1745015583.8521502
+        },
+        {
+          "timestamp": "2025-04-18 18:33:04",
+          "step": "speech_recognition",
+          "duration_seconds": "0.214",
+          "start_time": 1745015583.8526525,
+          "end_time": 1745015584.0670338,
+          "additional_info": {
+            "text": "What is one plus one?"
+          }
+        },
+        {
+          "timestamp": "2025-04-18 18:33:04",
+          "step": "llm_processing",
+          "duration_seconds": "0.104",
+          "start_time": 1745015584.0676012,
+          "end_time": 1745015584.1719427,
+          "additional_info": {
+            "response": "Answer is two (2)."
+          }
+        }
+      ],
+      "conversation": [
+        {
+          "role": "user",
+          "text": "What is one plus one?",
+          "timestamp": "2025-04-18 18:33:04"
+        },
+        {
+          "role": "assistant",
+          "text": "Answer is two (2).",
+          "timestamp": "2025-04-18 18:33:04"
+        }
+      ]
+    },
+    {
+      "session_id": 4,
+      "start_time": "2025-04-18 18:33:50",
+      "steps": [
+        {
+          "timestamp": "2025-04-18 18:33:50",
+          "step": "audio_reception",
+          "duration_seconds": "0.001",
+          "start_time": 1745015630.3002183,
+          "end_time": 1745015630.301697
+        },
+        {
+          "timestamp": "2025-04-18 18:33:50",
+          "step": "audio_conversion",
+          "duration_seconds": "0.396",
+          "start_time": 1745015630.3027406,
+          "end_time": 1745015630.6983619
+        },
+        {
+          "timestamp": "2025-04-18 18:33:51",
+          "step": "voice_activity_detection",
+          "duration_seconds": "0.898",
+          "start_time": 1745015630.698971,
+          "end_time": 1745015631.5969174
+        },
+        {
+          "timestamp": "2025-04-18 18:33:58",
+          "step": "speech_recognition",
+          "duration_seconds": "6.595",
+          "start_time": 1745015631.5975273,
+          "end_time": 1745015638.1929908,
+          "additional_info": {
+            "text": "www\u306f\u306f\u306f daddy"
+          }
+        },
+        {
+          "timestamp": "2025-04-18 18:33:58",
+          "step": "llm_processing",
+          "duration_seconds": "0.110",
+          "start_time": 1745015638.1937642,
+          "end_time": 1745015638.3034742,
+          "additional_info": {
+            "response": "\u65e5\u672c\u4eba\u306e\u611b\u79f0\u3067\u3059\u3002"
+          }
+        }
+      ],
+      "conversation": [
+        {
+          "role": "user",
+          "text": "www\u306f\u306f\u306f daddy",
+          "timestamp": "2025-04-18 18:33:58"
+        },
+        {
+          "role": "assistant",
+          "text": "\u65e5\u672c\u4eba\u306e\u611b\u79f0\u3067\u3059\u3002",
+          "timestamp": "2025-04-18 18:33:58"
+        }
+      ]
+    },
+    {
+      "session_id": 5,
+      "start_time": "2025-04-18 18:34:11",
+      "steps": [
+        {
+          "timestamp": "2025-04-18 18:34:11",
+          "step": "audio_reception",
+          "duration_seconds": "0.000",
+          "start_time": 1745015651.9889588,
+          "end_time": 1745015651.9894052
+        },
+        {
+          "timestamp": "2025-04-18 18:34:12",
+          "step": "audio_conversion",
+          "duration_seconds": "0.264",
+          "start_time": 1745015651.9901762,
+          "end_time": 1745015652.2545404
+        },
+        {
+          "timestamp": "2025-04-18 18:34:12",
+          "step": "voice_activity_detection",
+          "duration_seconds": "0.286",
+          "start_time": 1745015652.2552774,
+          "end_time": 1745015652.5416472
+        },
+        {
+          "timestamp": "2025-04-18 18:34:12",
+          "step": "speech_recognition",
+          "duration_seconds": "0.241",
+          "start_time": 1745015652.5423567,
+          "end_time": 1745015652.7830358,
+          "additional_info": {
+            "text": "What is 1 plus 1?"
+          }
+        },
+        {
+          "timestamp": "2025-04-18 18:34:12",
+          "step": "llm_processing",
+          "duration_seconds": "0.111",
+          "start_time": 1745015652.7838266,
+          "end_time": 1745015652.8946593,
+          "additional_info": {
+            "response": "The answer is 2."
+          }
+        }
+      ],
+      "conversation": [
+        {
+          "role": "user",
+          "text": "What is 1 plus 1?",
+          "timestamp": "2025-04-18 18:34:12"
+        },
+        {
+          "role": "assistant",
+          "text": "The answer is 2.",
+          "timestamp": "2025-04-18 18:34:12"
+        }
+      ]
+    },
+    {
+      "session_id": 6,
+      "start_time": "2025-04-18 18:34:19",
+      "steps": [
+        {
+          "timestamp": "2025-04-18 18:34:19",
+          "step": "audio_reception",
+          "duration_seconds": "0.001",
+          "start_time": 1745015659.4523494,
+          "end_time": 1745015659.4530685
+        },
+        {
+          "timestamp": "2025-04-18 18:34:19",
+          "step": "audio_conversion",
+          "duration_seconds": "0.235",
+          "start_time": 1745015659.4546864,
+          "end_time": 1745015659.689411
+        },
+        {
+          "timestamp": "2025-04-18 18:34:19",
+          "step": "voice_activity_detection",
+          "duration_seconds": "0.138",
+          "start_time": 1745015659.6903348,
+          "end_time": 1745015659.8281476
+        },
+        {
+          "timestamp": "2025-04-18 18:34:20",
+          "step": "speech_recognition",
+          "duration_seconds": "0.217",
+          "start_time": 1745015659.8292487,
+          "end_time": 1745015660.0464456,
+          "additional_info": {
+            "text": "What is one plus one?"
+          }
+        },
+        {
+          "timestamp": "2025-04-18 18:34:20",
+          "step": "llm_processing",
+          "duration_seconds": "0.246",
+          "start_time": 1745015660.0473197,
+          "end_time": 1745015660.293774,
+          "additional_info": {
+            "response": "One plus one equals two. Mathematically, it's 1 + 1 = 2."
+          }
+        }
+      ],
+      "conversation": [
+        {
+          "role": "user",
+          "text": "What is one plus one?",
+          "timestamp": "2025-04-18 18:34:20"
+        },
+        {
+          "role": "assistant",
+          "text": "One plus one equals two. Mathematically, it's 1 + 1 = 2.",
+          "timestamp": "2025-04-18 18:34:20"
+        }
+      ]
+    },
+    {
+      "session_id": 7,
+      "start_time": "2025-04-18 18:34:55",
+      "steps": [
+        {
+          "timestamp": "2025-04-18 18:34:55",
+          "step": "audio_reception",
+          "duration_seconds": "0.001",
+          "start_time": 1745015695.0059152,
+          "end_time": 1745015695.006685
+        },
+        {
+          "timestamp": "2025-04-18 18:34:55",
+          "step": "audio_conversion",
+          "duration_seconds": "0.342",
+          "start_time": 1745015695.0077043,
+          "end_time": 1745015695.3494923
+        },
+        {
+          "timestamp": "2025-04-18 18:34:56",
+          "step": "voice_activity_detection",
+          "duration_seconds": "0.726",
+          "start_time": 1745015695.3504546,
+          "end_time": 1745015696.0761933
+        },
+        {
+          "timestamp": "2025-04-18 18:34:56",
+          "step": "speech_recognition",
+          "duration_seconds": "0.904",
+          "start_time": 1745015696.0771527,
+          "end_time": 1745015696.981487,
+          "additional_info": {
+            "text": "Those are the four notes I will use. Little silence. I'm definitely not like I'm facing a problem. I'm trying to test that one. Like, is it for the noise or something? So it should take that voice of me and go to the. So maybe is it for the continuous speaking or something? This is like, why are you trying to? My, okay. What is one plus one?"
+          }
+        },
+        {
+          "timestamp": "2025-04-18 18:34:57",
+          "step": "llm_processing",
+          "duration_seconds": "0.238",
+          "start_time": 1745015696.9824765,
+          "end_time": 1745015697.2200158,
+          "additional_info": {
+            "response": "The silence is a separate test from speaking. 1 + 1 = 2."
+          }
+        }
+      ],
+      "conversation": [
+        {
+          "role": "user",
+          "text": "Those are the four notes I will use. Little silence. I'm definitely not like I'm facing a problem. I'm trying to test that one. Like, is it for the noise or something? So it should take that voice of me and go to the. So maybe is it for the continuous speaking or something? This is like, why are you trying to? My, okay. What is one plus one?",
+          "timestamp": "2025-04-18 18:34:56"
+        },
+        {
+          "role": "assistant",
+          "text": "The silence is a separate test from speaking. 1 + 1 = 2.",
+          "timestamp": "2025-04-18 18:34:57"
+        }
+      ]
+    }
+  ],
+  "start_time": "2025-04-18 18:32:43",
+  "application_version": "1.0"
+}
